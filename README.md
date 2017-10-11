@@ -17,7 +17,7 @@ Skeleton for [Slim framework](https://www.slimframework.com/) ! Easy to install
   app  
   |- Controllers  
   &nbsp;&nbsp;&nbsp;|- Controller.php (the main controller)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- UserController.php (user controller example)  
+  &nbsp;&nbsp;&nbsp;|- UserController.php (user controller example)  
   |- Middlewares  
   &nbsp;&nbsp;&nbsp;|- FlashMiddleware.php (errors display)  
   |- views  

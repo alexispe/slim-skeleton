@@ -16,27 +16,27 @@ Skeleton for [Slim framework](https://www.slimframework.com/) ! Easy to install
 # Directory tree
   app  
   |- Controllers  
-  |--| Controller.php (the main controller)  
-  |--|- UserController.php (user controller example)  
-  |-- Middlewares  
-  |--|- FlashMiddleware.php (errors display)  
-  |-- views  
-  |--|-- error  
-  |--|--|- 404.twig (404 error page)  
-  |--|-- user  
-  |--|--|- create.twig  
-  |--|--|- list.twig  
-  |--|--|- update.twig  
-  |--|- layout.frontend.twig (main layout)  
-  |-- install  
-  |--|- init.json (mysql database access)  
+     |- Controller.php (the main controller)  
+        |- UserController.php (user controller example)  
+  |- Middlewares  
+     |- FlashMiddleware.php (errors display)  
+  |- views  
+     |- error  
+        |- 404.twig (404 error page)  
+     |- user  
+        |- create.twig  
+        |- list.twig  
+        |- update.twig  
+     |- layout.frontend.twig (main layout)  
+  |- install  
+     |- init.json (mysql database access)  
   public  
   |- css  
   |- fonts  
   |- img  
   |- js  
   |- index.php (ENTRY POINT)  
-   tmp  
+  tmp  
   |- cache  
 
 # Installation

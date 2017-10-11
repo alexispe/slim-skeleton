@@ -1,0 +1,9 @@
+{% extends "layout.frontend.twig" %}
+
+{% block content %}
+    <form action="{{ path_for('userUpdate', { 'id' : user.id }) }}" method="post">
+      <input type="text" name="firstname" value="{{user.firstname}}">
+      <input type="text" name="lastname" value="{{user.lastname}}">
+      <input type="submit" name="" value="Submit">
+    </form>
+{% endblock %}

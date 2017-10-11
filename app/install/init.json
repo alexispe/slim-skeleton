@@ -1,0 +1,10 @@
+{
+  "_comment":"Database settings. Set then init to true.",
+  "init":false,
+  "database": [{
+    "host": "localhost",
+    "dbname": "mydatabase",
+    "user": "root",
+    "password": "root"
+  }]
+ }

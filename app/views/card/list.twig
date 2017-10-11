@@ -1,0 +1,21 @@
+{% extends "layout.frontend.twig" %}
+
+{% block content %}
+
+  <table>
+    <thead>
+      <tr>
+        <th>firstname</th>
+        <th>lastname</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in users %}
+      <tr>
+        <td>{{ user.firstname }}</td>
+        <td>{{ user.lastname }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
